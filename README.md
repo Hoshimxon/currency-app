@@ -59,3 +59,17 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## How to use
+
+1. Clone repo: git clone https://github.com/Hoshimxon/currency-app.git
+2. In postgres create database after named: currency_db
+3. Go to project directory: cd currency-app
+4. Create env file: cp .env.example .env
+5. Install packages: composer install
+6. Generate key: php artisan key:generate
+7. Migrating: php artisan migrate
+8. Run server: php artisan serve
+9. Browse to 127.0.0.1:8000
+10. Click "Load data from CBR" button
+11. And enjoy by using)
